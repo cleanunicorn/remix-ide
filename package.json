@@ -40,7 +40,7 @@
     "onchange": "^3.2.1",
     "remix-debug": "0.3.1",
     "remix-analyzer": "0.3.1",
-    "remix-lib": "0.4.1",
+    "remix-lib": "git+https://github.com/cleanunicorn/remix-lib.git#63997e4",
     "remix-solidity": "0.3.1",
     "remix-tests": "0.1.1",
     "remixd": "git+https://github.com/ethereum/remixd.git",
