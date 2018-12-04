@@ -1,6 +1,6 @@
 {
-  "name": "remix-ide",
-  "version": "v0.7.5",
+  "name": "@cleanunicorn/remix-ide",
+  "version": "0.7.6",
   "description": "Minimalistic browser-based Solidity IDE",
   "devDependencies": {
     "ace-mode-solidity": "^0.1.0",
@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/remix-ide.git"
+    "url": "git+https://github.com/cleanunicorn/remix-ide.git"
   },
   "keywords": [
     "ethereum",
@@ -75,9 +75,9 @@
   "author": "chriseth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereum/remix-ide/issues"
+    "url": "https://github.com/cleanunicorn/remix-ide/issues"
   },
-  "homepage": "https://github.com/ethereum/remix-ide#readme",
+  "homepage": "https://github.com/cleanunicorn/remix-ide#readme",
   "standard": {
     "ignore": [
       "build/",
@@ -147,7 +147,7 @@
   },
   "scripts": {
     "setupremix": "npm run linkremixlib && npm run linkremixsolidity && npm run linkremixsimulator && npm run linkremixtests",
-    "pullremix": "git clone https://github.com/ethereum/remix",
+    "pullremix": "git clone https://github.com/cleanunicorn/remix",
     "linkremixlib": "cd node_modules && rm -rf remix-lib && ln -s ../../remix/remix-lib remix-lib && cd ..",
     "linkremixsolidity": "cd node_modules && rm -rf remix-solidity && ln -s ../../remix/remix-solidity remix-solidity && cd ..",
     "linkremixsimulator": "cd node_modules && rm -rf remix-simulator && ln -s ../../remix/remix-simulator remix-simulator && cd ..",
