@@ -52,7 +52,7 @@ function styleGuide () {
                               FONTS
     ------------------------------------------------------ */
     fonts: {
-      font: '14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif'
+      font: '14px/1.5 Monospace, "Helvetica Neue", Helvetica, Arial, sans-serif'
     },
 
     /* ------------------------------------------------------

@@ -49,7 +49,7 @@ var css = csjs`
   html { box-sizing: border-box; }
   *, *:before, *:after { box-sizing: inherit; }
   body                 {
-    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/1.5 Monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin             : 0;
     padding            : 0;
     font-size          : 12px;
