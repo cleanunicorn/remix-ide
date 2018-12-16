@@ -8,3 +8,7 @@ Remix-ide has been published as an npm module:
 npm i -g @cleanunicorn/remix-ide
 remix-ide
 ```
+
+Changes:
+- Always use specified gas limit. Does not use the estimated gas limit anymore, even when doing transactions to the public chains.
+- Set font as monospace instead of Lato
